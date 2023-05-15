@@ -1,0 +1,25 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Jorvict",
+      "email": "correo@hola.com",
+      "telefono": "977415471",
+      "empresa": "Optical"
+    },
+    {
+      "nombre": "Jorvict Joshua",
+      "email": "hola@hola.com",
+      "telefono": "977705821",
+      "empresa": "Fortel",
+      "id": 2
+    },
+    {
+      "nombre": "Yoel",
+      "email": "yoel@correo.com",
+      "telefono": "984154741",
+      "empresa": "Yoel INC",
+      "id": 3
+    }
+  ]
+}
