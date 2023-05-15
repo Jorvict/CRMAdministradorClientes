@@ -5,7 +5,7 @@
         ~ PUT o PATCH: Para actualizar
         ~ DELETE: Para borrar registros
 */
-const url = 'http://localhost:4000/clientes';
+const url = 'https://crmadministradorclientes.herokuapp.com/clientes';
 
 // Cuando se crea un nuevo cliente
 export const nuevoCliente = async cliente =>{
