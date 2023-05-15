@@ -1,5 +1,5 @@
 {
-  "name": "CRM_Administrador_Clientes",
+  "name": "crmadministradorclientes",
   "version": "1.0.0",
   "description": "CRM para administrar clientes",
   "main": "index.html",
