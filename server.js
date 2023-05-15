@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 
 app.use(cors()); // Agrega el middleware de CORS
 
-app.use(jsonServer.router('db.json'));
+app.use(jsonServer.router('./db.json'));
 
 app.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
@@ -17,7 +17,7 @@ app.listen(port, () => {
 //
 
 const server = jsonServer.create();
-const router = jsonServer.router('./db.json');
+// const router = jsonServer.router('./db.json');
 const middlewares = jsonServer.defaults();
 // const port = process.env.PORT || 4000;
  
