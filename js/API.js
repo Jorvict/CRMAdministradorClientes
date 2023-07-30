@@ -5,7 +5,7 @@
         ~ PUT o PATCH: Para actualizar
         ~ DELETE: Para borrar registros
 */
-const url = 'https://crmadministradorclientes.herokuapp.com/clientes';
+const url = 'https://dbclientes.up.railway.app/clientes';
 
 // Cuando se crea un nuevo cliente
 export const nuevoCliente = async cliente =>{
